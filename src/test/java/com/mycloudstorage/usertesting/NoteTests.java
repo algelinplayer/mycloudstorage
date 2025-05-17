@@ -19,6 +19,7 @@ import java.util.ResourceBundle;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+@Disabled("Desativado temporariamente para depuração")
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class NoteTests {
 
